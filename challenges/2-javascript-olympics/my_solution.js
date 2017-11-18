@@ -16,8 +16,21 @@ nombre2 = {
 	sport: "Futball"
 }
 
-// 1. Añadir propiedades a objetos
+var james = {
+  name: "James",
+  sport: "Futbol",
+  height: 13
+}
 
+var falcao = {
+  name: "falcao",
+  sport: "Futbol",
+  height: 13
+}
+
+
+
+// 1. Añadir propiedades a objetos
 function x (atletas, event) {
 	var function = function atletas
 	atletas.forEach
@@ -28,6 +41,14 @@ function x (atletas, event) {
 
 function win (x) {
 	console.log(name + " won the " + event)
+_______________________________________________________
+var addWinToAthelete = function(atletas) {
+  atletas.forEach(function(atleta){
+    atleta.win = function(event) {
+      console.log(`${this.name} won the ${event}`)
+    }
+  })
+_________________
 }
 
 // 2. Voltea un String
