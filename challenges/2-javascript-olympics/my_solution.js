@@ -19,7 +19,11 @@ nombre2 = {
 // 1. Añadir propiedades a objetos
 
 function x (atletas, event) {
-
+	var function = function atletas
+	atletas.forEach
+		atleta.win = function {
+			console.log(qwer {this.name}+{event})
+		}
 }
 
 function win (x) {
