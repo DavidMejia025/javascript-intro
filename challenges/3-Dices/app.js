@@ -30,11 +30,15 @@ var new_dice = function() { // Controlador
 
  var roll_dice = function(){
  	$('.die').each(function(index, dieHtml) { // Controlador
-      $(dieHtml).text(random()) // Vista
+  
+       paint(dieHtml,random())
     })
  }
 
 var random = function(){
-	var value = Math.floor((Math.random()*6)+1) // Model
-	return  value
+	return Math.floor((Math.random()*6)+1) // Model
+}
+
+var paint = function(dieHtml,value){
+	$(dieHtml).text(random(value)) // Vista
 }
