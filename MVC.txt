@@ -1,0 +1,3 @@
+el modelo es el estado
+el controlador es (la base de datos) el encargado de recibir
+La vista es todo aquello que va a imprimir en pantalla
