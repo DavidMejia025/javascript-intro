@@ -4,15 +4,12 @@
 
 // __________________________________________
 // Escribe tu codigo aca.
-
-var secretNumber = 7
-var password = "just open the door"
-var allowedIn = false
-var members = ["Juan", 1, 2, "German"]
-
-
-
-// __________________________________________
+  secretNumber = 7
+  password = "just open the door"
+  allowedIn = false
+  members = ['juan',2,3,'German']
+  members[0] = 'Juan'
+//___________________________
 // Refleccion: Escribe una refleccion aca sobre lo que aprendiste.
 //
 //
